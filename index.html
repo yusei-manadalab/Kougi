@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>サンプルページ</title>
-</head>
-<body>
-   <h1>こんにちは、HTML！</h1>
-   <p>これは簡単なHTMLの例です。</p>
-</body>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"defer></script>
+    <link rel="stylesheet"href="style.css">
+    <title>アマトリチャーナのレシピ</title>
+  </head>
+  <body>
+    <div>
+      <h1>アマトリチャーナのレシピ</h1>
+
+      <section>
+        <h2>材料（2人前）</h2>
+        <ul>
+          <li>スパゲッティ 200g</li>
+          <li>パンチェッタ 100g</li>
+          <li>トマト缶 1缶</li>
+          <li>玉ねぎ 1/2個</li>
+          <li>にんにく 3片</li>
+          <li>オリーブオイル 大さじ2</li>
+          <li>塩・こしょう 適量</li>
+          <li>チーズ（ペコリーノ・ロマーノ推奨）適量</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>作り方</h2>
+        <ol>
+          <li>鍋に湯を沸かし、塩を加えてスパゲッティを茹でる。</li>
+          <li>フライパンにオリーブオイルを熱し、にんにくと玉ねぎを炒める。</li>
+          <li>パンチェッタを加えてカリッとするまで炒める。</li>
+          <li>
+            トマト缶を加えて煮詰める。水分が少なくなったらゆで汁を加える。
+          </li>
+          <li>茹でたスパゲッティを加えてよく絡める。</li>
+          <li>チーズを加えて混ぜる。</li>
+          <li>器に盛り付け、こしょうを振りかけたら完成。</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>アマトリチャーナの画像</h2>
+        <button id = "toggleButton">画像を表示/非表示</button>
+
+        <div id ="imageContainer" style="display: none">
+            <img class ="amatriciana" src="amatriciana.jpg", alt="アマトリチャーナ"/>
+        </div>
+
+      </section>
+    </div>
+  </body>
 </html>
